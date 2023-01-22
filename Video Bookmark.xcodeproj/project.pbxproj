@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		609A75C2297D13A500CF0EEE /* Video_BookmarkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609A75C1297D13A500CF0EEE /* Video_BookmarkApp.swift */; };
+		609A75C4297D13A500CF0EEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609A75C3297D13A500CF0EEE /* ContentView.swift */; };
+		609A75C6297D13A600CF0EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609A75C5297D13A600CF0EEE /* Assets.xcassets */; };
+		609A75C9297D13A600CF0EEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609A75C8297D13A600CF0EEE /* Preview Assets.xcassets */; };
+		609A75CB297D13A600CF0EEE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609A75CA297D13A600CF0EEE /* Persistence.swift */; };
+		609A75CE297D13A600CF0EEE /* Video_Bookmark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 609A75CC297D13A600CF0EEE /* Video_Bookmark.xcdatamodeld */; };
+		609A75D9297D13A600CF0EEE /* Video_BookmarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609A75D8297D13A600CF0EEE /* Video_BookmarkTests.swift */; };
+		609A75E3297D13A600CF0EEE /* Video_BookmarkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609A75E2297D13A600CF0EEE /* Video_BookmarkUITests.swift */; };
+		609A75E5297D13A600CF0EEE /* Video_BookmarkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609A75E4297D13A600CF0EEE /* Video_BookmarkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		609A75D5297D13A600CF0EEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 609A75B6297D13A500CF0EEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 609A75BD297D13A500CF0EEE;
+			remoteInfo = "Video Bookmark";
+		};
+		609A75DF297D13A600CF0EEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 609A75B6297D13A500CF0EEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 609A75BD297D13A500CF0EEE;
+			remoteInfo = "Video Bookmark";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		609A75BE297D13A500CF0EEE /* Video Bookmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Video Bookmark.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		609A75C1297D13A500CF0EEE /* Video_BookmarkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video_BookmarkApp.swift; sourceTree = "<group>"; };
+		609A75C3297D13A500CF0EEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		609A75C5297D13A600CF0EEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		609A75C8297D13A600CF0EEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		609A75CA297D13A600CF0EEE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		609A75CD297D13A600CF0EEE /* Video_Bookmark.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Video_Bookmark.xcdatamodel; sourceTree = "<group>"; };
+		609A75CF297D13A600CF0EEE /* Video_Bookmark.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Video_Bookmark.entitlements; sourceTree = "<group>"; };
+		609A75D4297D13A600CF0EEE /* Video BookmarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Video BookmarkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		609A75D8297D13A600CF0EEE /* Video_BookmarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video_BookmarkTests.swift; sourceTree = "<group>"; };
+		609A75DE297D13A600CF0EEE /* Video BookmarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Video BookmarkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		609A75E2297D13A600CF0EEE /* Video_BookmarkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video_BookmarkUITests.swift; sourceTree = "<group>"; };
+		609A75E4297D13A600CF0EEE /* Video_BookmarkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video_BookmarkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		609A75BB297D13A500CF0EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609A75D1297D13A600CF0EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609A75DB297D13A600CF0EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		609A75B5297D13A500CF0EEE = {
+			isa = PBXGroup;
+			children = (
+				609A75C0297D13A500CF0EEE /* Video Bookmark */,
+				609A75D7297D13A600CF0EEE /* Video BookmarkTests */,
+				609A75E1297D13A600CF0EEE /* Video BookmarkUITests */,
+				609A75BF297D13A500CF0EEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		609A75BF297D13A500CF0EEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				609A75BE297D13A500CF0EEE /* Video Bookmark.app */,
+				609A75D4297D13A600CF0EEE /* Video BookmarkTests.xctest */,
+				609A75DE297D13A600CF0EEE /* Video BookmarkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		609A75C0297D13A500CF0EEE /* Video Bookmark */ = {
+			isa = PBXGroup;
+			children = (
+				609A75C1297D13A500CF0EEE /* Video_BookmarkApp.swift */,
+				609A75C3297D13A500CF0EEE /* ContentView.swift */,
+				609A75C5297D13A600CF0EEE /* Assets.xcassets */,
+				609A75CA297D13A600CF0EEE /* Persistence.swift */,
+				609A75CF297D13A600CF0EEE /* Video_Bookmark.entitlements */,
+				609A75CC297D13A600CF0EEE /* Video_Bookmark.xcdatamodeld */,
+				609A75C7297D13A600CF0EEE /* Preview Content */,
+			);
+			path = "Video Bookmark";
+			sourceTree = "<group>";
+		};
+		609A75C7297D13A600CF0EEE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				609A75C8297D13A600CF0EEE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		609A75D7297D13A600CF0EEE /* Video BookmarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				609A75D8297D13A600CF0EEE /* Video_BookmarkTests.swift */,
+			);
+			path = "Video BookmarkTests";
+			sourceTree = "<group>";
+		};
+		609A75E1297D13A600CF0EEE /* Video BookmarkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				609A75E2297D13A600CF0EEE /* Video_BookmarkUITests.swift */,
+				609A75E4297D13A600CF0EEE /* Video_BookmarkUITestsLaunchTests.swift */,
+			);
+			path = "Video BookmarkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		609A75BD297D13A500CF0EEE /* Video Bookmark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 609A75E8297D13A600CF0EEE /* Build configuration list for PBXNativeTarget "Video Bookmark" */;
+			buildPhases = (
+				609A75BA297D13A500CF0EEE /* Sources */,
+				609A75BB297D13A500CF0EEE /* Frameworks */,
+				609A75BC297D13A500CF0EEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Video Bookmark";
+			productName = "Video Bookmark";
+			productReference = 609A75BE297D13A500CF0EEE /* Video Bookmark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		609A75D3297D13A600CF0EEE /* Video BookmarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 609A75EB297D13A600CF0EEE /* Build configuration list for PBXNativeTarget "Video BookmarkTests" */;
+			buildPhases = (
+				609A75D0297D13A600CF0EEE /* Sources */,
+				609A75D1297D13A600CF0EEE /* Frameworks */,
+				609A75D2297D13A600CF0EEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				609A75D6297D13A600CF0EEE /* PBXTargetDependency */,
+			);
+			name = "Video BookmarkTests";
+			productName = "Video BookmarkTests";
+			productReference = 609A75D4297D13A600CF0EEE /* Video BookmarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		609A75DD297D13A600CF0EEE /* Video BookmarkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 609A75EE297D13A600CF0EEE /* Build configuration list for PBXNativeTarget "Video BookmarkUITests" */;
+			buildPhases = (
+				609A75DA297D13A600CF0EEE /* Sources */,
+				609A75DB297D13A600CF0EEE /* Frameworks */,
+				609A75DC297D13A600CF0EEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				609A75E0297D13A600CF0EEE /* PBXTargetDependency */,
+			);
+			name = "Video BookmarkUITests";
+			productName = "Video BookmarkUITests";
+			productReference = 609A75DE297D13A600CF0EEE /* Video BookmarkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		609A75B6297D13A500CF0EEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					609A75BD297D13A500CF0EEE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					609A75D3297D13A600CF0EEE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 609A75BD297D13A500CF0EEE;
+					};
+					609A75DD297D13A600CF0EEE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 609A75BD297D13A500CF0EEE;
+					};
+				};
+			};
+			buildConfigurationList = 609A75B9297D13A500CF0EEE /* Build configuration list for PBXProject "Video Bookmark" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 609A75B5297D13A500CF0EEE;
+			productRefGroup = 609A75BF297D13A500CF0EEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				609A75BD297D13A500CF0EEE /* Video Bookmark */,
+				609A75D3297D13A600CF0EEE /* Video BookmarkTests */,
+				609A75DD297D13A600CF0EEE /* Video BookmarkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		609A75BC297D13A500CF0EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609A75C9297D13A600CF0EEE /* Preview Assets.xcassets in Resources */,
+				609A75C6297D13A600CF0EEE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609A75D2297D13A600CF0EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609A75DC297D13A600CF0EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		609A75BA297D13A500CF0EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609A75CB297D13A600CF0EEE /* Persistence.swift in Sources */,
+				609A75C4297D13A500CF0EEE /* ContentView.swift in Sources */,
+				609A75C2297D13A500CF0EEE /* Video_BookmarkApp.swift in Sources */,
+				609A75CE297D13A600CF0EEE /* Video_Bookmark.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609A75D0297D13A600CF0EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609A75D9297D13A600CF0EEE /* Video_BookmarkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609A75DA297D13A600CF0EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609A75E5297D13A600CF0EEE /* Video_BookmarkUITestsLaunchTests.swift in Sources */,
+				609A75E3297D13A600CF0EEE /* Video_BookmarkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		609A75D6297D13A600CF0EEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 609A75BD297D13A500CF0EEE /* Video Bookmark */;
+			targetProxy = 609A75D5297D13A600CF0EEE /* PBXContainerItemProxy */;
+		};
+		609A75E0297D13A600CF0EEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 609A75BD297D13A500CF0EEE /* Video Bookmark */;
+			targetProxy = 609A75DF297D13A600CF0EEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		609A75E6297D13A600CF0EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		609A75E7297D13A600CF0EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		609A75E9297D13A600CF0EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Video Bookmark/Video_Bookmark.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Video Bookmark/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.videobookmark.Video-Bookmark";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		609A75EA297D13A600CF0EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Video Bookmark/Video_Bookmark.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Video Bookmark/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.videobookmark.Video-Bookmark";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		609A75EC297D13A600CF0EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.videobookmark.Video-BookmarkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Video Bookmark.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Video Bookmark";
+			};
+			name = Debug;
+		};
+		609A75ED297D13A600CF0EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.videobookmark.Video-BookmarkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Video Bookmark.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Video Bookmark";
+			};
+			name = Release;
+		};
+		609A75EF297D13A600CF0EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.videobookmark.Video-BookmarkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Video Bookmark";
+			};
+			name = Debug;
+		};
+		609A75F0297D13A600CF0EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.videobookmark.Video-BookmarkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Video Bookmark";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		609A75B9297D13A500CF0EEE /* Build configuration list for PBXProject "Video Bookmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609A75E6297D13A600CF0EEE /* Debug */,
+				609A75E7297D13A600CF0EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		609A75E8297D13A600CF0EEE /* Build configuration list for PBXNativeTarget "Video Bookmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609A75E9297D13A600CF0EEE /* Debug */,
+				609A75EA297D13A600CF0EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		609A75EB297D13A600CF0EEE /* Build configuration list for PBXNativeTarget "Video BookmarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609A75EC297D13A600CF0EEE /* Debug */,
+				609A75ED297D13A600CF0EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		609A75EE297D13A600CF0EEE /* Build configuration list for PBXNativeTarget "Video BookmarkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609A75EF297D13A600CF0EEE /* Debug */,
+				609A75F0297D13A600CF0EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		609A75CC297D13A600CF0EEE /* Video_Bookmark.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				609A75CD297D13A600CF0EEE /* Video_Bookmark.xcdatamodel */,
+			);
+			currentVersion = 609A75CD297D13A600CF0EEE /* Video_Bookmark.xcdatamodel */;
+			path = Video_Bookmark.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 609A75B6297D13A500CF0EEE /* Project object */;
+}
